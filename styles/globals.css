@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Oswald:wght@400&display=swap');
+
+html,
+body {
+  padding: 20px 20px 60px;
+  max-width: 680px;
+  margin: 0 auto;
+  font-family: 'Bokor', cursive;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+.all {
+  background-image: url('/Background.png');
+  object-fit: fill;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#text {
+  font-family: 'Bokor', cursive;
+}
+
+.font-2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.support {
+  margin: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Bokor', cursive;
+  font-family: 'Kanit', sans-serif;
+}
+
+.icon {
+  margin: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
