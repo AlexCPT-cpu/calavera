@@ -13,9 +13,9 @@ const providerOptions = {
     package: WalletConnectProvider,
     options: {
       rpc: {
-        56: 'https://bsc-dataseed1.binance.org'
+        1: 'https://rpc.ankr.com/eth'
       },
-      chainId: 56
+      chainId: 1
     }
   }
 }
