@@ -1,7 +1,7 @@
 import { Text, Row, Col} from '@nextui-org/react'
 import { useContext } from 'react'
 import { WalletConnectContext } from '../context/WalletConnectContext'
-import { useMediaQuery } from './useMediaQuery.js'
+import { useMediaQuery } from './useMediaQuery'
 
 const PurchaseCard = () => {
 
